@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     --dark: #282021;
 }
 
@@ -42,7 +42,7 @@ section:first-of-type {
     height: 4rem !important;
 }
 
-.navbar>.container-fluid {
+.navbar > .container-fluid {
     background-color: var(--dark) !important;
 }
 
@@ -77,7 +77,7 @@ section:first-of-type {
 }
 
 #youll-never-code-alone {
-    background-image: url('assets/img/binary.webp');
+    background-image: url("assets/img/binary.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

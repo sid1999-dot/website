@@ -1,0 +1,15 @@
+{
+    "name": "hackclub-website",
+    "version": "1.0.0",
+    "description": "The official website of Hack Club, VIT Chennai.",
+    "scripts": {
+        "lint": "prettier --write ."
+    },
+    "repository": {
+        "url": "git+https://github.com/HackclubVIT/website.git",
+        "type": "git"
+    },
+    "devDependencies": {
+        "prettier": "^2.4.1"
+    }
+}

@@ -9,7 +9,7 @@ request.
 
 #### Style guide
 
-- Use four spaces, not tabs.
-- Pretty-print your code before pushing it.
-- Please don't use inline styles.
-- Use webp for images.
+-   Use four spaces, not tabs.
+-   Pretty-print your code before pushing it.
+-   Please don't use inline styles.
+-   Use webp for images.
