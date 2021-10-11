@@ -109,30 +109,6 @@ section:first-of-type {
     margin-top: 4rem;
 }
 
-@media screen and (max-aspect-ratio: 1/1) {
-    section {
-        flex-direction: column !important;
-    }
-
-    section:first-of-type {
-        margin-top: 40%;
-    }
-
-    .section-text {
-        width: 100%;
-    }
-
-    .section-image {
-        max-height: 100%;
-        width: auto;
-    }
-
-    .blob {
-        width: 80%;
-        margin: 0;
-    }
-}
-
 #commence-launch {
     background: var(--dark);
     color: white;
@@ -156,4 +132,55 @@ section:first-of-type {
 
 .footer {
     background: var(--dark) !important;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-icons {
+    width: 25%;
+}
+
+footer-links {
+    width: 75%;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+    section {
+        flex-direction: column !important;
+    }
+
+    section:first-of-type {
+        margin-top: 40%;
+    }
+
+    .section-text {
+        width: 100%;
+    }
+
+    .section-image {
+        max-height: 100%;
+        width: auto;
+    }
+
+    .blob {
+        width: 99%;
+        margin: 0;
+        padding: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    .footer {
+        flex-direction: column !important;
+    }
+
+    .footer-icons {
+        width: 100%;
+    }
+    .footer-links {
+        width: 100%;
+        align-items: flex-start !important;
+    }
 }
