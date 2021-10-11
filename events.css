@@ -1,0 +1,106 @@
+.swiper {
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 700px) {
+    .swiper {
+        width: 300px;
+    }
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.swiper-slide h1 {
+    margin-right: 50px;
+}
+
+.swiper-slide:nth-child(1n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+    /* filter: drop-shadow(33px 25px 49px rgba(0, 0, 0, 0.29)); */
+}
+
+.swiper-slide:nth-child(2n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
+
+.swiper-slide:nth-child(3n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
+
+.swiper-slide:nth-child(4n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
+
+.swiper-slide:nth-child(5n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
+
+.swiper-slide:nth-child(6n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
+
+.swiper-slide:nth-child(7n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
+
+.swiper-slide:nth-child(8n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
+
+.swiper-slide:nth-child(9n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
+
+.swiper-slide:nth-child(10n) {
+    background: linear-gradient(
+        293.6deg,
+        #ef1212 34.79%,
+        rgba(39, 33, 33, 0) 162.64%
+    );
+}
