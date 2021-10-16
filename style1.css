@@ -190,7 +190,7 @@ body.homepage .page-content {
 form{
     background: rgb(41, 32, 33);
     color: white;
-    border-radius: 10%;
+    border-radius: 40px;
 }
 button.btn.btn-primary {
     color: black;
