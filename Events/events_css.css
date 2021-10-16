@@ -1,0 +1,147 @@
+/*For events*/
+
+*{
+    box-sizing: border-box;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+  /* html,
+  body {
+    position: relative;
+    height: 100%;
+  } */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 60%;
+    height: 57%;
+}
+
+.swiper-slide h1{
+    margin-right: 50px;
+}
+
+.swiper-slide{
+    background: linear-gradient(293.6deg, #EF1212 13.68%, #EF1212 34.79%, rgba(187, 22, 22, 0.740383) 67.98%, rgba(39, 33, 33, 0) 162.64%);
+    filter: drop-shadow(33px 25px 49px rgba(0, 0, 0, 0.29));
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: #fff;
+    height: 90%;
+    width: 80%;
+    flex-wrap: wrap;
+    /* filter: drop-shadow(33px 25px 49px rgba(0, 0, 0, 0.29)); */
+}
+
+.left { 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left > img {
+    padding: 5%;
+    margin-top: 10px;
+    align-items: flex-start;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.right{
+    width: 50%;
+}
+  
+@media screen and (max-width:825px) {
+    .swiper{
+        height: 80%;
+        width: 90%;
+    }
+    .swiper-slide{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+    .left{
+        height: 70%;
+        width: 100%;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+        width: 100%;
+    }
+    .right p {
+        text-align: center;
+        height: 50%;
+        width: 70%;
+    }
+  }
+
+@media screen and (max-width:350px) {
+    .swiper{
+        height: 90%;
+    }
+    .left{
+        height: 60%;
+    }
+    .right{
+        height: 40%;
+    }
+    .right p{
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:210px){
+    .swiper{
+        height: 90%;
+    }
+    .left{
+        height: 50%;
+    }
+    .right{
+        height: 50%;
+    }
+    .right p{
+        height: 100%;
+    }
+}
