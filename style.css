@@ -205,3 +205,33 @@ form.contact-us {
     padding: 1% 3%;
     margin-left: auto;
 }
+
+.slides-heading {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.slide-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+.slide-wrapper > .section-image {
+    max-width: 50%;
+    width: 50%;
+    margin: 0.5rem;
+}
+
+.slide-wrapper > .slide-description {
+    width: 50%;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+code {
+    color: inherit;
+}
