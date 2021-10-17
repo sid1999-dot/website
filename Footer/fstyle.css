@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0 ;
+    overflow: hidden;
+}
+footer{
+    display: block;
+    padding: 2em;
+    padding-left: 2.5em;
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    background-color: #272121;
+}
+.container li{
+    display: inline-block;
+}
+
+.col1 {
+    width: 65%;
+}
+.container_f1 img{
+    padding : 1em;  
+}
+.container_f1{
+    font-family : roboto;
+    font-weight : 900;
+    color : #fff;
+}
+.container_f1 #hc{
+    display: inline-block;
+    padding : 0.5em;
+    font-size : 46px;
+    top : 0;
+}
+.socials ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socials li{
+    display: inline-block;
+    padding : 1.3em;
+}
+
+.links{
+    display: inline-block;
+    font-family : roboto;
+    font-weight: 500;
+    font-size : 24px;
+    color : #fff;
+}
+
+.col2{
+    padding : 1.5em;
+    margin : 1.5em;
+}
+.links .comm{
+    padding : 0.1em;
+}
+.links .outro{
+    font-size : 18px;
+    font-weight: 300;
+    padding-top : 0.5em;
+}
+
+@media screen and (max-width: 720px) {
+    
+    .container_f1 img{
+        padding : 0em;  
+        padding-left: 0.5em;
+    }
+    .container_f1 #hc{
+        display : inline-block;
+        padding : 0.35em;
+        margin-bottom: 0.4em;
+        font-size : 34px;
+     }
+
+    .socials li{
+        display: inline-block;
+        padding : 0.5em;
+    }
+    .col2{
+        padding : 0.5em;
+        margin : 0.5em;
+    }
+}
