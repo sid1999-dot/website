@@ -151,31 +151,25 @@ footer-links {
     section {
         flex-direction: column !important;
     }
-
     section:first-of-type {
         margin-top: 40%;
     }
-
     .section-text {
         width: 100%;
     }
-
     .section-image {
         max-height: 100%;
         width: auto;
     }
-
     .blob {
         width: 99%;
         margin: 0;
         padding: 0.5rem;
         border-radius: 1rem;
     }
-
     .footer {
         flex-direction: column !important;
     }
-
     .footer-icons {
         width: 100%;
     }
@@ -219,13 +213,13 @@ form.contact-us {
     height: 90%;
 }
 
-.slide-wrapper > .section-image {
+.slide-wrapper>.section-image {
     max-width: 50%;
     width: 50%;
     margin: 0.5rem;
 }
 
-.slide-wrapper > .slide-description {
+.slide-wrapper>.slide-description {
     width: 50%;
     margin: 0.5rem;
     font-size: 1rem;
@@ -234,4 +228,102 @@ form.contact-us {
 
 code {
     color: inherit;
+}
+
+footer ul.container {
+    padding: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: block;
+    width: 100% !important;
+    height: auto;
+    left: 0px;
+    background-color: #272121;
+}
+
+.container li {
+    display: inline-block;
+}
+
+.col1 {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.container_f1 img {
+    padding: 1em;
+}
+
+.container_f1 {
+    font-family: roboto;
+    font-weight: 900;
+    color: #fff;
+}
+
+.container_f1 #hc {
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 46px;
+    top: 0;
+}
+
+.socials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+    padding: 1.3em;
+}
+
+.links {
+    display: inline-block;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+
+.col2 {
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+.links .comm {
+    padding: 0.1em;
+}
+
+.links .outro {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 0.5em;
+}
+
+@media screen and (max-width: 720px) {
+    .container_f1 img {
+        padding: 0em;
+        padding-left: 0.5em;
+    }
+    .container_f1 #hc {
+        display: inline-block;
+        padding: 0.35em;
+        margin-bottom: 0.4em;
+        font-size: 34px;
+    }
+    .socials li {
+        display: inline-block;
+        padding: 0.5em;
+    }
+    .col2 {
+        padding: 0.5em;
+        margin: 0.5em;
+    }
 }
