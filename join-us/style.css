@@ -2,8 +2,10 @@
     --bg: #292021;
     --hc-orange: #e64e00;
 }
+
 body {
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 body.homepage {
@@ -22,12 +24,7 @@ html {
     font-size: 1.5rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: var(--hc-orange);
 }
 
@@ -81,7 +78,6 @@ body.homepage .page-content {
         text-align: right;
         font-size: 1.2rem;
     }
-
     body.homepage .page-content {
         margin-top: 35%;
     }
@@ -100,7 +96,6 @@ body.homepage .page-content {
     .splash-text {
         font-size: 1.2rem;
     }
-
     body.homepage .page-content {
         margin-top: 40%;
     }
@@ -120,7 +115,6 @@ body.homepage .page-content {
     .splash-text {
         font-size: 2rem;
     }
-
     body.homepage .page-content {
         margin-top: 20%;
     }
@@ -179,19 +173,23 @@ body.homepage .page-content {
         font-size: 120%;
     }
 }
-.content{
+
+.content {
     font-weight: 700;
     font-size: 400%;
     font-family: "Roboto";
 }
+
 div#first {
     float: right;
     margin-right: 10%;
 }
+
 div#second {
     float: right;
     margin-right: 8%;
 }
+
 button.btn.btn-dark {
     width: 22%;
     margin-left: 68%;
@@ -199,4 +197,3 @@ button.btn.btn-dark {
     border-radius: 14px;
     box-shadow: 10px 10px 5px #cec9c9;
 }
-
