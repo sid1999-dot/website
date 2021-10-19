@@ -19,8 +19,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
@@ -116,7 +115,7 @@
                             <img src='assets/img/git-event.webp'>
                         </div>
                         <div class='slide-description'>
-                            <h3><code>git</code> Event</h3>
+                            <h3>Events</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed elit et tortor
                                 volutpat dapibus. Donec porttitor dictum varius. Vestibulum rhoncus quam augue, id
@@ -137,6 +136,9 @@
 
                 </div>
             </div>
+        </div>
+        <div id='events-slides-progress'>
+
         </div>
     </section>
 
@@ -193,24 +195,29 @@
         const swiper = new Swiper('.swiper', {
             // Optional parameters
             direction: 'horizontal',
+            effect: 'cards',
+            grabCursor: true,
             loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
+            controller: true
         });
+
+        const numSlides = document.querySelectorAll(".swiper-wrapper>.swiper-slide").length - 2; // -2 for looped mode
+        const progress = document.querySelector("#events-slides-progress");
+
+        for (let i = 0; i < numSlides; i++) {
+            const indicator = document.createElement('span');
+            indicator.classList.add('progress-circle');
+            progress.appendChild(indicator);
+        }
+
+        progress.querySelector('span:nth-child(1)')?.classList.add('current');
+
+        swiper.on("slideChangeTransitionEnd", (e) => {
+            progress.querySelector('.current')?.classList.remove('current');
+            progress.querySelector(`span:nth-child(${swiper.realIndex + 1})`)?.classList.add('current');
+        })
+
+
     </script>
 </body>
 
