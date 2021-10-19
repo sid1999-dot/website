@@ -281,6 +281,11 @@ footer {
     padding-top: 0.5em;
 }
 
+
+.links a {
+    color: inherit;
+}
+
 @media screen and (max-width: 720px) {
     .container_f1 img {
         padding: 0em;
