@@ -111,7 +111,7 @@ section:first-of-type {
 }
 
 .large {
-    color: black;
+    color: rgb(255, 0, 0);
     font-size: 4.5rem;
     font-family: Roboto; 
     font-weight: 500; 
